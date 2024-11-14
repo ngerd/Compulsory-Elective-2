@@ -1,3 +1,9 @@
+import os
+import openai
+import chainlit as cl
+from typing import Optional, Dict
+from chainlit.types import ThreadDict
+from dotenv import load_dotenv
 # Load indices from disk
 from llama_index.core import VectorStoreIndex, StorageContext
 from llama_index.core import Settings
@@ -8,14 +14,6 @@ from llama_index.core.tools import QueryEngineTool, ToolMetadata
 from llama_index.core.storage.chat_store import SimpleChatStore
 from llama_index.agent.openai import OpenAIAgent
 from llama_index.core.memory import ChatMemoryBuffer
-import os
-import openai
-from llama_index.readers.file import UnstructuredReader
-from pathlib import Path
-import chainlit as cl
-from typing import Optional, Dict
-from chainlit.types import ThreadDict
-from dotenv import load_dotenv
 
 #initiate api key
 load_dotenv()
