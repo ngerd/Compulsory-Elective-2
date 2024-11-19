@@ -19,6 +19,6 @@ This project aims to provide the AI Assistant who can help learners explore and 
 4. Adding your OpenAi API, Chainlit auth secret, Literal AI API, and oath Google in the .env file (You can find the instructions in the [Useful Links](#useful-links)
 
 ## Useful Links
-[Building Chatbot Instruction](https://docs.llamaindex.ai/en/stable/understanding/putting_it_all_together/chatbots/building_a_chatbot/)
-[Chainlit Document](https://docs.chainlit.io/get-started/overview)
-[OpenAI Document](https://platform.openai.com/docs/concepts)
+- [Building Chatbot Instruction](https://docs.llamaindex.ai/en/stable/understanding/putting_it_all_together/chatbots/building_a_chatbot/)
+- [Chainlit Document](https://docs.chainlit.io/get-started/overview)
+- [OpenAI Document](https://platform.openai.com/docs/concepts)
