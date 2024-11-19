@@ -4,7 +4,7 @@ import chainlit as cl
 from typing import Optional, Dict
 from chainlit.types import ThreadDict
 from dotenv import load_dotenv
-from llama_index.core import VectorStoreIndex, StorageContext
+from llama_index.core import StorageContext
 from llama_index.core import Settings
 from llama_index.core import load_index_from_storage
 from llama_index.llms.openai import OpenAI
@@ -67,7 +67,7 @@ async def start():
         chat_store = SimpleChatStore()
 
     chat_memory = ChatMemoryBuffer.from_defaults(
-        token_limit=1500,
+        token_limit=1500, #token_limit = 2000
         chat_store=chat_store,
         chat_store_key="user",
     )  
