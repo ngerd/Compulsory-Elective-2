@@ -1,14 +1,12 @@
-# Welcome to Chainlit! 🚀🤖
+# Welcome to Biology Chatbot! 🚀🤖
 
-Hi there, Developer! 👋 We're excited to have you on board. Chainlit is a powerful tool designed to help you prototype, debug and share applications built on top of LLMs.
+Hi there, Biology Learner and Enthusiast! 👋 This intelligent assistant is designed to help you explore and understand biology concepts, drawing knowledge from the renowned Campbell Biology textbook. Whether you're studying for an exam or just curious about the natural world, the chatbot is here to assist you.
+
+You can start by asking questions like the ones provided in the starter options. Beyond these, feel free to ask about topics such as cell structure, genetics, or the fascinating forms and functions of plants and animals. For example, you might ask, "What is the role of mitochondria in a cell?" or "How do plants adapt to arid environments?"
+
+Dive in and explore the wonders of biology!
 
 ## Useful Links 🔗
 
-- **Documentation:** Get started with our comprehensive [Chainlit Documentation](https://docs.chainlit.io) 📚
-- **Discord Community:** Join our friendly [Chainlit Discord](https://discord.gg/k73SQ3FyUh) to ask questions, share your projects, and connect with other developers! 💬
-
-We can't wait to see what you create with Chainlit! Happy coding! 💻😊
-
-## Welcome screen
-
-To modify the welcome screen, edit the `chainlit.md` file at the root of your project. If you do not want a welcome screen, just leave this file empty.
+- **Github** Out source code [Biology Chatbot](https://github.com/ngerd/Compulsory-Elective-2) 💻😊
+- **Campbell Book** If you are interested in Campbell Biology book, you can find it [here](https://github.com/ngerd/Compulsory-Elective-2/tree/main/data) 📚
