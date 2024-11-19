@@ -4,7 +4,7 @@ import chainlit as cl
 from typing import Optional, Dict
 from chainlit.types import ThreadDict
 from dotenv import load_dotenv
-from llama_index.core import VectorStoreIndex, StorageContext
+from llama_index.core import StorageContext
 from llama_index.core import Settings
 from llama_index.core import load_index_from_storage
 from llama_index.llms.openai import OpenAI
