@@ -19,7 +19,7 @@ nest_asyncio.apply()
 nltk.download('punkt_tab')
 nltk.download('averaged_perceptron_tagger_eng')
 
-reader = SimpleDirectoryReader(input_dir="T:/Academic/Compulsoy_Elective_2/Chatbot/data") # T:\Academic\Compulsoy_Elective_2\Chatbot\data
+reader = SimpleDirectoryReader(input_dir="./data") #Data dir
 documents = reader.load_data()
 # initialize simple vector indices
 Settings.chunk_size = 512
