@@ -16,7 +16,7 @@ This project aims to provide the AI Assistant who can help learners explore and 
 1. Clone the repository
 2. Navigate to the project directory
 3. Install the required dependencies in the [requirements](https://github.com/ngerd/Compulsory-Elective-2/blob/main/requirements.txt)
-4. Adding your OpenAi API, Chainlit auth secret, Literal AI API, and oath Google in the .env file (You can find the instructions in the [Useful Links](#useful-links)
+4. Adding your OpenAi API, Chainlit auth secret, Literal AI API, and oath Google in the .env file.You can find the instructions in the [Useful Links](#useful-links)
 
 ## Useful Links
 - [Building Chatbot Instruction](https://docs.llamaindex.ai/en/stable/understanding/putting_it_all_together/chatbots/building_a_chatbot/)
