@@ -67,7 +67,7 @@ async def start():
         chat_store = SimpleChatStore()
 
     chat_memory = ChatMemoryBuffer.from_defaults(
-        token_limit=1500,
+        token_limit=1500, #token_limit = 2000
         chat_store=chat_store,
         chat_store_key="user",
     )  
