@@ -4,7 +4,6 @@ import chainlit as cl
 from typing import Optional, Dict
 from chainlit.types import ThreadDict
 from dotenv import load_dotenv
-# Load indices from disk
 from llama_index.core import VectorStoreIndex, StorageContext
 from llama_index.core import Settings
 from llama_index.core import load_index_from_storage
@@ -103,7 +102,6 @@ async def start():
     cl.user_session.set("agent", agent)
     cl.user_session.set("chat_store", chat_store)
 
-
 @cl.on_chat_resume
 async def on_chat_resume():
     if os.path.exists(chat_file_path) and os.path.getsize(chat_file_path) > 0:
@@ -165,7 +163,8 @@ def auth_callback(username: str, password: str):
     # Dictionary storing usernames and passwords for authentication
     users = {
         "user1": "123",
-        "user2": "123"
+        "user2": "123",
+        "demo" : "supersecurity"
     }
 
     # Verifies credentials and returns user metadata if authenticated
@@ -190,13 +189,6 @@ async def main(message: cl.Message):
     await msg.send()
 
     chat_store.persist(persist_path = chat_file_path)
-    # while True:
-    #     text_input = input("User: ")
-    #     if text_input == "exit":
-    #         break
-    #     response = agent.chat(text_input)
-    #     print(f"Agent: {response}")
-    #     chat_store.persist(persist_path = chat_file_path)
 
 if __name__ == "main":
    cl.run(main)
